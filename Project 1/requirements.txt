@@ -1,0 +1,7 @@
+beautifulsoup4==4.12.3
+cloudscraper==1.2.71
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.2.2+cu118
+transformers==4.40.1
+sentencepiece
+numpy==1.26.4
