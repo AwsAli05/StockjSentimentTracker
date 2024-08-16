@@ -1,4 +1,4 @@
-**# Financial News Summarizer
+# Financial News Summarizer
 
 **Created By Aws Ali, 2024-05-05**
 
