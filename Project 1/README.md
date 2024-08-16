@@ -23,16 +23,13 @@ The Financial News Summarizer is a tool designed to fetch, summarize, and analyz
 
 ## Setup and Installation
 
-1. **Download the Executable**:
-   - Download `FinancialNewsSummarizer.exe` from the provided link. **DONT FORGET TO PUT IN A GITHUB LINK**
-
-2. **Configuration File**:
+1. **Configuration File**:
    - Create a file named `monitored_tickers.txt` in the same directory as the executable.
    - List the tickers you want to monitor, separated by commas. Example format:
      ```
      TSLA, AAPL, GOOG, MSFT
      ```
-3. **Requirements File**
+2. **Requirements File**
 Before running the Financial News Summarizer, you need to install the necessary Python libraries. Open a terminal or command prompt and navigate to the directory containing the `requirements.txt` file. Run the following command:
 
 ```bash
@@ -40,7 +37,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 
-To run the Financial News Summarizer, simply execute the `FinancialNewsSummarizer.exe` file. Ensure that the `monitored_tickers.txt` file is in the same directory as the executable and is properly formatted.
+To run the Financial News Summarizer, simply execute the `Stock Sentiment Tracker.py` file. Ensure that the `monitored_tickers.txt` file is in the same directory as the executable and is properly formatted.
 
 The program will read the tickers from the `monitored_tickers.txt` file, fetch the relevant news articles, and then display the summaries and sentiment analysis results in the console. It will also generate a CSV file, `assetsummaries.csv`, containing the summaries, sentiment labels, confidence scores, and URLs of the articles.
 
